@@ -1,0 +1,27 @@
+Unable to find image 'nextflow/examples:latest' locally
+latest: Pulling from nextflow/examples
+a3ed95caeb02: Pulling fs layer
+6f30d08062d9: Pulling fs layer
+4d6629e30c21: Pulling fs layer
+5e61605063f5: Pulling fs layer
+f9b8be8f20d5: Pulling fs layer
+83f5e020a184: Pulling fs layer
+3fb42e15cc67: Pulling fs layer
+946a0c547de7: Pulling fs layer
+453637fd844d: Pulling fs layer
+83f5e020a184: Waiting
+f9b8be8f20d5: Waiting
+d1947d6cbbfd: Pulling fs layer
+4d6629e30c21: Waiting
+3fb42e15cc67: Waiting
+946a0c547de7: Waiting
+453637fd844d: Waiting
+5e61605063f5: Waiting
+d1947d6cbbfd: Waiting
+a3ed95caeb02: Verifying Checksum
+a3ed95caeb02: Download complete
+a3ed95caeb02: Pull complete
+5e61605063f5: Verifying Checksum
+5e61605063f5: Download complete
+f9b8be8f20d5: Download complete
+83f5e020a184: Download complete
