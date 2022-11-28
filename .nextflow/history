@@ -1,0 +1,10 @@
+2022-11-21 10:13:14	3.5s	prickly_bose	ERR	2c9f27612178394d367ce14afe26fe4fdf055c1e	02806088-3329-4620-b880-54fde23affd2	nextflow run telatin/nextflow-example -r main --reads 'data/*_R{1,2}.fastq.gz' --outdir denovo-example
+2022-11-23 09:48:57	2.5s	adoring_heyrovsky	ERR	2c9f27612178394d367ce14afe26fe4fdf055c1e	0a2b2acf-a4be-4217-9999-10c9f1307fa1	nextflow run telatin/nextflow-example -r main -profile singularity --reads 'data/*_R{1,2}.fastq.gz' --outdir denovo-example
+2022-11-23 10:09:01	1.1s	fervent_galileo	OK	00000000000000000000000000000000	7756c59d-bc21-4bc7-81b5-9afb1735f337	nextflow run hello.nf
+2022-11-23 10:09:25	1s	boring_lamarr	OK	00000000000000000000000000000000	7e91640a-a0a7-41e4-bc83-cac9b92bb681	nextflow run hello.nf
+2022-11-23 10:10:30	940ms	clever_wozniak	OK	00000000000000000000000000000000	bbb063e1-2e97-4889-8021-68e7b8176019	nextflow run hello.nf
+2022-11-23 10:19:05	-	disturbed_jennings	-	206f394fde5bf4d916b6e7f83dfef620	a95122b9-ee0a-4529-bd89-08781a6e5e16	nextflow run hello.nf
+2022-11-23 10:19:34	-	distracted_cuvier	-	206f394fde5bf4d916b6e7f83dfef620	5fccd8ef-76b7-4b1f-8694-240f9df9bcb4	nextflow run hello.nf
+2022-11-23 10:19:50	2.4s	golden_solvay	OK	500f705eeb7e98f328c7e5a9af840e7e	83f61150-0af4-4fcf-a2e6-136f7c4a7df9	nextflow run hello.nf
+2022-11-23 10:22:26	2.1s	desperate_stonebraker	OK	500f705eeb7e98f328c7e5a9af840e7e	bc45ac4c-3faa-45fe-8fc4-31777a190c9a	nextflow run hello.nf --str 'Bonjour le monde'
+2022-11-25 09:01:21	2.2s	golden_colden	OK	500f705eeb7e98f328c7e5a9af840e7e	dfb25263-ede9-4f5b-a2b6-dff4aae3c6c2	nextflow run hello.nf --str 'Bonjour le monde!'

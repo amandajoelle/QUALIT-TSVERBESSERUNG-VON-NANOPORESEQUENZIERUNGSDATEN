@@ -8,3 +8,9 @@
 2022-11-16 19:12:15	1.8s	big_leakey	OK	00000000000000000000000000000000	4c727a5d-dd38-41c4-8eb9-fefa92cb30fc	nextflow run test.nf
 2022-11-16 19:12:42	1.6s	loving_venter	OK	00000000000000000000000000000000	2660b2b3-760e-40fa-9811-ee420d6fc86c	nextflow run test.nf
 2022-11-16 19:14:14	3s	golden_stonebraker	OK	7ed0e799f31316502c346f3eac997554	44aac7ee-038a-49ce-b46e-22514ccecd85	nextflow run test.nf
+2022-11-23 10:13:35	2.2s	prickly_snyder	OK	7ed0e799f31316502c346f3eac997554	e9301a97-37e0-4835-8a97-c20c03fbe0d3	nextflow run test.nf
+2022-11-23 10:18:29	2.8s	admiring_mestorf	OK	7ed0e799f31316502c346f3eac997554	9b98bfe4-d838-4a0e-bfe7-a4ec5e701fb0	nextflow run test.nf
+2022-11-25 09:03:54	1.7s	naughty_ride	OK	86d466d737f613ce5dac88d23cde3641	16bbe7be-719c-49f6-93cb-7028940b40a9	nextflow run script.nf
+2022-11-25 09:06:28	942ms	cheeky_rubens	OK	86d466d737f613ce5dac88d23cde3641	5c00a27e-89f4-411e-a6e6-96bc678b9bee	nextflow run script.nf with docker
+2022-11-25 09:11:57	1.2s	tender_lavoisier	OK	ad51a7960ee9e35b66e40a63705d9893	d97e3a66-e2b4-409d-a483-2f1238d8c774	nextflow run script.nf
+2022-11-25 09:12:59	1.2s	romantic_edison	OK	52d26e06b777822104725de56dab4e82	6b4c46a3-b923-47cc-af3b-8b560e2990ec	nextflow run script.nf

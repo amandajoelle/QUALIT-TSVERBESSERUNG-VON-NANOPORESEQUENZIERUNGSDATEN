@@ -1,0 +1,98 @@
+digraph "pipeline_dag_20221123_094856" {
+p0 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromFilePairs"];
+p1 [label="FASTP"];
+p0 -> p1 [label="reads"];
+
+p1 [label="FASTP"];
+p2 [label="SHOVILL"];
+p1 -> p2;
+
+p1 [label="FASTP"];
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p1 -> p17;
+
+p2 [label="SHOVILL"];
+p3 [label="ABRICATE"];
+p2 -> p3;
+
+p3 [label="ABRICATE"];
+p12 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p3 -> p12;
+
+p2 [label="SHOVILL"];
+p4 [label="PROKKA"];
+p2 -> p4;
+
+p4 [label="PROKKA"];
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p4 -> p17;
+
+p2 [label="SHOVILL"];
+p5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p2 -> p5;
+
+p5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p5 -> p6;
+
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p7 [label="QUAST"];
+p6 -> p7;
+
+p7 [label="QUAST"];
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p7 -> p17;
+
+p2 [label="SHOVILL"];
+p8 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p2 -> p8;
+
+p8 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p9 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p8 -> p9;
+
+p9 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p10 [label="MLST"];
+p9 -> p10;
+
+p10 [label="MLST"];
+p16 [label="MLST_SUMMARY"];
+p10 -> p16;
+
+p10 [label="MLST"];
+p11 [shape=point];
+p10 -> p11;
+
+p12 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+p13 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p12 -> p13;
+
+p13 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p14 [label="ABRICATE_SUMMARY"];
+p13 -> p14;
+
+p14 [label="ABRICATE_SUMMARY"];
+p15 [shape=point];
+p14 -> p15;
+
+p14 [label="ABRICATE_SUMMARY"];
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p14 -> p17;
+
+p16 [label="MLST_SUMMARY"];
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p16 -> p17;
+
+p17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p18 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p17 -> p18;
+
+p18 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p19 [label="MULTIQC"];
+p18 -> p19;
+
+p19 [label="MULTIQC"];
+p20 [shape=point];
+p19 -> p20;
+
+}
